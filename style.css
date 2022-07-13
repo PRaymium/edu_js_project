@@ -1,0 +1,143 @@
+body{
+    background-color: #f6f6f6;
+}
+
+.search{
+    background-color: lightgrey;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.search:focus{
+    text-align: left;
+}
+
+.filter{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px 0px;
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+.filter__list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.filter__item{
+    padding-bottom: .5rem;
+}
+
+.items-view{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px 0px;
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+.items-view__top-item{
+    display: flex;
+}
+
+.items-view__count-displayed-item{
+    justify-content: flex-end;
+    line-height: 2rem;
+}
+
+.items-list__item{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+    border-bottom: 3px solid var(--bs-primary);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.items-list__item:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
+    filter: contrast(1.2);
+}
+
+.items-list__item-img{
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.items-list__item-age-rating{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 1px 3px;
+    font-size: 1rem;
+}
+
+.items-list__item-name{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.items-list__item-props{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem .5rem;
+    margin: .5rem 0;
+}
+
+.items-list__item-prop{
+    display: flex;
+}
+
+#btn-loadMore{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .items-view__top-item{
+        justify-content: center;
+    }
+
+    .items-view__count-displayed-item{
+        margin-top: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .items-list__item-img{
+        max-width: 100%;
+        max-height: 10%;
+        object-fit: cover;
+    }
+
+    .items-list__item-name{
+        margin-top: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    html{
+        font-size: 4vw;
+    }
+
+    .items-list{
+        --bs-gutter-y: 5rem;
+    }
+}

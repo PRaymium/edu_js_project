@@ -1,0 +1,164 @@
+[
+    {
+        "id" : 1,
+        "name" : "Первая любовь",
+        "age" : "16+",
+        "rating" : 3.8,
+        "duration" : 101,
+        "genres" : [1],
+        "img" : "pervaya_lubov.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "Побег из космоса",
+        "age" : "6+",
+        "rating" : 3.2,
+        "duration" : 101,
+        "genres" : [2],
+        "img" : "pobeg_iz_kosmosa.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "Одна",
+        "age" : "12+",
+        "rating" : 4.1,
+        "duration" : 108,
+        "genres" : [3, 4],
+        "img" : "odna.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "Дикая",
+        "age" : "16+",
+        "rating" : 3.0,
+        "duration" : 107,
+        "genres" : [5, 6],
+        "img" : "dikaya.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "Проклятие Артура",
+        "age" : "18+",
+        "rating" : 4.0,
+        "duration" : 100,
+        "genres" : [7],
+        "img" : "proklyatie_artura.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "Молох",
+        "age" : "16+",
+        "rating" : 3.7,
+        "duration" : 101,
+        "genres" : [7],
+        "img" : "moloh.jpg"
+    },
+    {
+        "id" : 7,
+        "name" : "Боец: король ринга",
+        "age" : "16+",
+        "rating" : 4.1,
+        "duration" : 107,
+        "genres" : [3, 8],
+        "img" : "boec_korol_ringa.jpg"
+    },
+    {
+        "id" : 8,
+        "name" : "Паранормальные явления. Медиум",
+        "age" : "16+",
+        "rating" : 4.3,
+        "duration" : 133,
+        "genres" : [9, 10],
+        "img" : "paranormalnye_yavleniya_medium.jpg"
+    },
+    {
+        "id" : 9,
+        "name" : "Венецияфрения",
+        "age" : "18+",
+        "rating" : 3.5,
+        "duration" : 104,
+        "genres" : [9],
+        "img" : "veneciyafreniya.jpg"
+    },
+    {
+        "id" : 10,
+        "name" : "Влюблённые в небо",
+        "age" : "12+",
+        "rating" : 4.4,
+        "duration" : 103,
+        "genres" : [2],
+        "img" : "vlublennie_v_nebo.jpg"
+    },
+    {
+        "id" : 11,
+        "name" : "Бэтмен",
+        "age" : "16+",
+        "rating" : 4.1,
+        "duration" : 176,
+        "genres" : [3, 8, 11, 12, 13, 14],
+        "img" : "batman.jpg"
+    },
+    {
+        "id" : 12,
+        "name" : "Школа волшебства",
+        "age" : "6+",
+        "rating" : 3.1,
+        "duration" : 116,
+        "genres" : [5, 6, 10],
+        "img" : "school_of_magic.jpg"
+    },
+    {
+        "id" : 13,
+        "name" : "Доктор Стрэндж: В мультивселенной безумия",
+        "age" : "12+",
+        "rating" : 3.3,
+        "duration" : 126,
+        "genres" : [5, 9, 10, 11, 13],
+        "img" : "dr_strange.jpg"
+    },
+    {
+        "id" : 14,
+        "name" : "Коммандо",
+        "age" : "16+",
+        "rating" : 3.0,
+        "duration" : 93,
+        "genres" : [4, 11],
+        "img" : "commando.jpg"
+    },
+    {
+        "id" : 15,
+        "name" : "Творцы снов",
+        "age" : "6+",
+        "rating" : 3.2,
+        "duration" : 81,
+        "genres" : [2, 5, 11],
+        "img" : "tvorcy_snov.jpg"
+    },
+    {
+        "id" : 16,
+        "name" : "Чёрная гора",
+        "age" : "16+",
+        "rating" : 2.9,
+        "duration" : 80,
+        "genres" : [4, 9],
+        "img" : "chernaya_gora.jpg"
+    },
+    {
+        "id" : 17,
+        "name" : "Драйв",
+        "age" : "18+",
+        "rating" : 3.7,
+        "duration" : 100,
+        "genres" : [3, 4, 8],
+        "img" : "drive.jpg"
+    },
+    {
+        "id" : 18,
+        "name" : "Главная роль",
+        "age" : "16+",
+        "rating" : 3.7,
+        "duration" : 115,
+        "genres" : [3, 6],
+        "img" : "glavnaya_rol.jpg"
+    }
+]
